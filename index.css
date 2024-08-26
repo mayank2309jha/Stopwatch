@@ -1,0 +1,48 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
+.clock{
+  margin-left: 20vw;
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.time{
+  height: 20vw;
+  width:60vw;
+  border:1px solid black;
+  font-size: 9vw;
+  display: flex;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+@media (min-width: 900px) {
+  .clock {
+    margin-top: 30vh;
+  }
+}
+@media (max-width: 900px) {
+  .clock {
+    margin-top: 20vw;
+  }
+}
+
+.control{
+  display: flex;
+  gap: 4vw;
+}
+.start{
+  margin-left: 5vw;
+}
+button{
+  width: 14vw;
+  height: auto;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  font-size: 180%;
+  border-radius: 10px;
+}
